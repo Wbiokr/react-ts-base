@@ -6,6 +6,7 @@ import Header from '@/components/layout/header';
 import routes from '@/route/index';
 import * as redux from 'react-redux';
 import { Common } from '@/interface/common';
+import { Button } from 'antd';
 
 const { connect } = redux as any;
 
@@ -23,6 +24,7 @@ class App extends Component {
 
         <div className="app">
           <Nav></Nav>
+          <Button>hello</Button>
           {/* <Header></Header> */}
           <main>
             {/* <Menu></Menu> */}
